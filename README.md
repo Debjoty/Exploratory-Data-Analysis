@@ -61,7 +61,8 @@ The dataset used in this notebook consists of:
 > 📌 **Note:** The source and nature of the dataset can be customized to suit any industry use case (e.g., sales, health, finance, education).
 
 ---
-
+![Image](https://github.com/user-attachments/assets/f09885ea-cdf5-4226-b85a-54be2751f509)
+![Image](https://github.com/user-attachments/assets/32389d38-1f67-4631-a937-075d0a1c0771)
 ## 📸 EDA Notebook Preview
 
 ```python
