@@ -1,18 +1,4 @@
-# Exploratory-Data-Analysis
-from nbconvert import MarkdownExporter
-import nbformat
 
-# Load the new uploaded notebook
-notebook_path = Path("/mnt/data/Exploratory Data Analysis.ipynb")
-with notebook_path.open() as f:
-    notebook = nbformat.read(f, as_version=4)
-
-# Convert notebook content to Markdown
-exporter = MarkdownExporter()
-body, resources = exporter.from_notebook_node(notebook)
-
-# Create a styled README.md content inspired by the Olympic Dashboard template
-readme_custom = """
 # 📊 Exploratory Data Analysis | Python Project
 
 Welcome to the **Exploratory Data Analysis (EDA)** project – a data exploration and visualization notebook created using Python. This project dives deep into the dataset to uncover patterns, trends, and actionable insights.
